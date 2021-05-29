@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV ShoW</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e6d75722bb.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="box-area"></div>
+    <header>
+      <nav>
+
+
+
+        <label for="search" class="search-box">
+          <input
+          class="search-txt"
+          type="search"
+          name="search"
+          placeholder="Type to search..."
+        />
+        <a class="search-btn" href="#">
+          <i class="fas fa-search"></i>
+        </a>
+        </label>
+
+        <!-- </div>
+        <div class="search-box">
+          <input
+            class="search-txt"
+            type="text"
+            name=""
+            placeholder="Type to search..."
+          />
+          <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </div> -->
+        <div class="select-div">
+          <select class="select-box" name="selectBox">
+            <option value="first">Choose an episode of seasons</option>
+          </select>
+        </div>
+      </nav>
+
+      <div class="sidebar">
+        <img src="game-of-thrones.png" alt="logo" class="logo" />
+        <h2>MENU</h2>
+        <ul class="nav">
+          <li class="homeTag">
+            <a href="">
+              <i class="fas fa-home"></i>
+              <span>HOME</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">
+              <i class="fas fa-info-circle"></i>
+              <span>About series</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/aydaBastami">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.tvmaze.com/">
+              <i class="fas fa-tv"></i>
+              <span>More movie</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="https://www.tvmaze.com/account/login">
+              <i class="fas fa-sign-in-alt"></i>
+              <span>Login</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="myHeader"></div>
+        <div class="myBody"></div>
+        <div class="myFooter"></div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
